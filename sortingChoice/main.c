@@ -12,7 +12,7 @@ int main(void){
     size_data = max_value = 0;
 
     printf("Choose a positive integer for the number of elements in the vector: ");
-        while(size_data <= 0) scanf("%d", &size_data);
+    while(size_data <= 0) scanf("%d", &size_data);
     printf("Choose a positive interval for the value of the elements in the vector: ");
     while(max_value <= 0) scanf("%d", &max_value);
 
