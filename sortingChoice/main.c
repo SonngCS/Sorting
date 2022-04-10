@@ -21,8 +21,7 @@ int main(void){
     for(int i = 0; i < size_data; i++){
         dataStructure[i] = rand() % (max_value+1);
     }
-    int sortchoice, timer;
-    timer = sortchoice = 0;
+    int sortchoice = 0;
     printVector(dataStructure, size_data);
     printf("Choose a sorting algorithm:\n1 - Selection sort\n2 - Permutation sort (bubble sort)\n3 - Quick sort\n4 - Merge sort\n5 - Heapsort\n");
     scanf("%d", &sortchoice);
