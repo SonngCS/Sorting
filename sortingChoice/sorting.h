@@ -7,7 +7,7 @@ void selectionSort(int *, int);
 //Permutation sort algorithm
 void permutationSort(int *, int);
 
-//QUick sort algorithm
+//Quick sort algorithm
 void quickSort(int *, int, int);
 
 //Merge function, for the Merge sort algorithm
